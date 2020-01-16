@@ -1,0 +1,136 @@
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+body{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.menu hr{
+    margin: 10px 0px;
+}
+.logo, .slogan{
+    display: inline-block;
+}
+.logo{
+    margin-left: 10px;
+}
+.slogan{
+    float: right;
+    margin-right: 100px;
+}
+.logo img, .slogan img{
+    width: 120%;
+}
+.title li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.title li a{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+.title li a:hover{
+    border-bottom: 4px solid red;
+}
+
+/*banner*/
+.banner{
+    background-image: url("../img/slider_1.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+.intro_title{
+    text-align: center;
+}
+.intro .intro_content p{
+    margin: 10px;
+    text-align: center; 
+}
+.intro{
+    margin-bottom: 70px;
+}
+
+/*Program*/
+.program_title{
+    text-align: center;
+}
+.image{
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.all_programs img{
+    width: 100%;
+}
+.image h5{
+    font-size: 17px;
+    color: rgb(168, 32, 32);
+    margin-top: 10px;
+}
+.image p{
+    font-size: 15px;
+    margin-top:5px;
+}
+
+.news_title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news_left, .news_right, .news_2, .news_3, .news_4, .news_5{
+    float: left;
+    width: 49%;
+}
+.news_1, .news_2, .news_3, .news_4, .news_5{
+    position: relative;
+}
+.news_1 .square_1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(44, 44, 42, 0.5);
+    color:white;
+}
+.news_1 .square_1 p{
+    font-size: 25px;
+    margin: 10px;
+}
+.news_2 .square_2, .news_3 .square_3, .news_4 .square_4, .news_5 .square_5{
+    position: absolute;
+    bottom:0;
+    background-color: rgba(44, 44, 42, 0.5);
+    padding: 10px 5px 0px 5px;
+    color:white;
+}
+.news_left img, .news_right img{
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.news_left, .news_2, .news_4{
+    margin-right: 2%;
+}
+.news_4, .news_5 {
+    margin-top: 1%;
+}
+.news_2 .square_2 p, .news_3 .square_3 p, .news_4 .square_4 p, .news_5 .square_5 p{
+    font-size: 17px;
+    padding: 5px;
+}
+
+
